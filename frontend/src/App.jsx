@@ -6,7 +6,7 @@ import Register from './pages/Register';
 import Tasks from './pages/Tasks';
 import Layout from './components/Layout';
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000/api';
+const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8000/api';
 
 const authAxios = axios.create({
   baseURL: API_BASE,
