@@ -1,3 +1,7 @@
+<img width="1920" height="1080" alt="Screenshot (132)" src="https://github.com/user-attachments/assets/7bf54a72-1aa5-4754-a90a-d53e15181adc" />
+<img width="1920" height="1080" alt="Screenshot (131)" src="https://github.com/user-attachments/assets/813423d0-3a37-4ee8-a933-c9999a9c1ed1" />
+<img width="1920" height="1080" alt="Screenshot (130)" src="https://github.com/user-attachments/assets/29bc1b80-6002-468b-b8af-9970a38b46ac" />
+<img width="1920" height="1080" alt="Screenshot (129)" src="https://github.com/user-attachments/assets/b8956c60-418c-4c8d-8168-b35067689eeb" />
 # Task Manager App
 
 This repository contains a full-stack Task Manager application built with React for the frontend and Node.js/Express with MongoDB for the backend.
