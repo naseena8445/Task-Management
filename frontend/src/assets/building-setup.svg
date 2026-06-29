@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e6f0ff" />
+      <stop offset="1" stop-color="#f8fbff" />
+    </linearGradient>
+    <linearGradient id="g2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#60a5fa" stop-opacity="0.24" />
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0.12" />
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="900" fill="url(#g1)" />
+
+  <!-- Soft shapes -->
+  <circle cx="220" cy="160" r="120" fill="#cfe8ff" />
+  <ellipse cx="1220" cy="140" rx="200" ry="100" fill="#d9eefc" />
+
+  <!-- Building blocks -->
+  <g transform="translate(260,200)">
+    <rect x="0" y="120" width="260" height="420" rx="18" fill="#fff" stroke="#e6eefc" />
+    <rect x="300" y="60" width="320" height="480" rx="20" fill="#fff" stroke="#e6eefc" />
+    <rect x="660" y="180" width="220" height="360" rx="18" fill="#fff" stroke="#e6eefc" />
+
+    <!-- windows -->
+    <g fill="#e6f0ff">
+      <rect x="24" y="160" width="56" height="40" rx="6" />
+      <rect x="96" y="160" width="56" height="40" rx="6" />
+      <rect x="168" y="160" width="56" height="40" rx="6" />
+
+      <rect x="324" y="96" width="80" height="28" rx="6" />
+      <rect x="420" y="96" width="80" height="28" rx="6" />
+      <rect x="516" y="96" width="80" height="28" rx="6" />
+
+      <rect x="684" y="220" width="72" height="30" rx="6" />
+      <rect x="770" y="220" width="72" height="30" rx="6" />
+    </g>
+
+    <!-- task card icons -->
+    <g transform="translate(40,380)">
+      <rect x="0" y="0" width="160" height="54" rx="10" fill="#eef6ff" />
+      <rect x="180" y="0" width="260" height="54" rx="10" fill="#fff" stroke="#e6eefc" />
+    </g>
+  </g>
+
+  <!-- Gear icon -->
+  <g transform="translate(1040,520)">
+    <circle cx="0" cy="0" r="72" fill="#60a5fa" fill-opacity="0.08" />
+    <g transform="translate(-10,-10)" fill="#2563eb">
+      <path d="M48 14l6-12-12-6-6 12-12 6 6 12-6 12 12 6 6-12 12-6-6-12z" opacity="0.15" />
+      <circle cx="20" cy="20" r="8" />
+    </g>
+  </g>
+
+  <!-- Check mark circle -->
+  <g transform="translate(980,700)">
+    <circle cx="0" cy="0" r="52" fill="#60a5fa" fill-opacity="0.12" />
+    <path d="M-18 0l12 12 36-36" stroke="#2563eb" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+
+  <!-- Decorative curve -->
+  <path d="M0 760C160 720 360 680 540 720C720 760 920 780 1120 740C1320 700 1440 720 1440 720V900H0V760Z" fill="url(#g2)" opacity="0.08" />
+</svg>
